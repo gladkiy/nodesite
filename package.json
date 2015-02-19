@@ -4,8 +4,9 @@
   "description": "Node.js Static Site Template",
   "dependencies": {
     "express": "*",
-    "stylus": "*",
-    "jade": "*"
+    "jade": "*",
+    "morgan": "^1.5.1",
+    "stylus": "*"
   },
   "private": true,
   "repository": {

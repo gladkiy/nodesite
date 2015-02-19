@@ -1,14 +1,17 @@
 'use strict';
 
-var http = require('http');
 var express = require('express');
 
-var app = express();
+var app = module.exports = exports = express();
+var logger = require('morgan');
 
-app.get('/', function(req, res){
-	res.send('Hello world!');
-});
+//Configuration
 
-http.createServer(app).listen(8123, function(){
-	console.log("Visit http://localhost:8123 to begin your work");
-});
+app.set('port', process.env.PORT || 8123);
+app.set('views');
+app.set('view engine', 'jade');
+
+//Middleware
+
+app.use(logger('dev'));
+app.use(express.Router());
