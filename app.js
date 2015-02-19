@@ -18,6 +18,8 @@ app.use(logger('dev'));
 app.use(express.Router());
 app.use(express.static('./public'));
 app.use(stylus.middleware({
-	src: './public/',
+	/*src: './public',*/
+	src: './public',
+	/*dest: './public/css/',*/
 	compress: true
 }));
