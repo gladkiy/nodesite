@@ -1,0 +1,19 @@
+{
+  "name": "nodesite",
+  "version": "1.0.0",
+  "description": "Node.js Static Site Template",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gladkiy/nodesite"
+  },
+  "author": "Alexander Gladkiy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gladkiy/nodesite/issues"
+  },
+  "homepage": "https://github.com/gladkiy/nodesite"
+}
