@@ -2,16 +2,16 @@ doctype html
 html
 	head
 		title Abstract web-studio
-		link(rel='stylesheet', href='/css/main.css')
+		link(rel='stylesheet', href='#{staticRoot}/css/main.css')
 	body
 		header
-			img(src='/img/kazakhstan.svg')
+			img(src='#{staticRoot}/img/kazakhstan.svg')
 			h1 Abstract web-studio
 		aside
 			nav
-				a(href='/') About
-				a(href='/projects.html') Projects
-				a(href='/contacts.html') Contacts
+				a(href='#{root}/') About
+				a(href='#{root}/projects.html') Projects
+				a(href='#{root}/contacts.html') Contacts
 		article
 			block main
 		footer
